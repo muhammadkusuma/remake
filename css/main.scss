@@ -1,0 +1,38 @@
+.navbar{
+    .container-md{
+        .navbar-collapse{
+            .nav-item{
+                .nav-link{
+                    &:hover{
+                        color: #176bef;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#role{
+    padding-top: 50px;
+}
+
+#contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#project-title{
+    padding-top: 80px;
+    text-align: center;
+}
+
+.project-view{
+    background-color: #c4c4c4;
+    color: white;
+    height: 100vh;
+}
+
+#img-project{
+    height: 300px;
+    width: auto;
+}

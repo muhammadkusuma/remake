@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+    --yellow-color: #FBBC04;
+    --green-color: #34A853;
+    --red-color: #EA4335;
+    --blue-color: #4285F4;
+    --black-80-color: #656C73;
+    --black-color: #222831;
+    --white-color: #ffffff;
+}
+
+.red {
+    color: var(--red-color);
+}
+
+.blue {
+    color: var(--blue-color);
+}
+
+.green {
+    color: var(--green-color);
+}
+
+.yellow {
+    color: var(--yellow-color);
+}
+
+.black-80 {
+    color: var(--black-80-color);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: var(--white-color);
+}
+
+#jumbotron_home {
+    padding: 7rem;
+}
+
+.desc_dsc {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--black-80-color);
+}
+
+a:hover {
+    color: var(--blue-color);
+    font-weight: bold;
+}
